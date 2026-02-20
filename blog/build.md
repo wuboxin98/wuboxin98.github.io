@@ -269,10 +269,13 @@ https://你的用户名.github.io
 docs/.vitepress/config.ts    # 如果在 docs 目录
 ```
 
-简单示例：
+**⚠️ 重要：配置 base 路径**
+
+如果你的仓库名不是 `你的用户名.github.io`，而是其他名字（如 `boxin-blog`），**必须**配置 base 路径，否则样式会丢失：
 
 ```ts
 export default {
+  base: '/boxin-blog/',  // 👈 必须添加，格式：/仓库名/
   title: "Boxin",
   description: "Agent Engineer Notes",
   themeConfig: {
@@ -290,6 +293,8 @@ export default {
   }
 }
 ```
+
+如果仓库名就是 `你的用户名.github.io`，则**不需要**设置 base。
 
 ---
 
