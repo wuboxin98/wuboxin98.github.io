@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/codingbox-blog/',
+  // base: '/codingbox-blog/',
   title: "CodingBox",
   description: "写代码的盒子",
   themeConfig: {
