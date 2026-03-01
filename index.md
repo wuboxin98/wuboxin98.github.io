@@ -29,11 +29,12 @@ features:
 ---
 
 大模型供应商
-- 智谱，https://bigmodel.cn/
+- 智谱  https://bigmodel.cn/
+- Deepseek  https://platform.deepseek.com/usage
 
 科学上网
-- 花网，https://huacloud.dev/
+- 花网 https://huacloud.dev/
 
 内网穿透
-- 樱花，https://www.natfrp.com/
+- 樱花 https://www.natfrp.com/
 
