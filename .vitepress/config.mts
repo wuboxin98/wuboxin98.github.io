@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 忽略构建时无法验证的链接（如 localhost、开发环境 URL）
+  ignoreDeadLinks: true,
   // base: '/codingbox-blog/',
   title: "Boxin",
   description: "写代码的盒子",
