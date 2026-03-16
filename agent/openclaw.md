@@ -1,4 +1,4 @@
-open clawd实践帖子
+Open Claw实践帖子
 
 最近[openclaw](https://clawhub.ai/)很火，但是在个人设备上的搭建门槛略高，所以很多云厂商推出了一键部署服务。比如，
 
